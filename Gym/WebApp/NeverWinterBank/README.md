@@ -8,7 +8,7 @@ What is the flag?
 
 # Analysis 
 ## Determine Normal Usage
-This is a login portal. When giving random credentials, it informs that the credentials are incorrect.
+This is a banking system. We can withdrawl from the Forge bank but we can't withdraw an amount that would leave the Forge account below 10.
 
 ## Web App Exploit Checklist (for NCL but these are good to check in any web app exploit test)
 - [X] Robots.txt

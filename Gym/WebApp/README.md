@@ -2,7 +2,7 @@ This is a basic walkthrough of the gymnasium web application exploitation challe
 
 # Challenges
 ## Easy
-- egov
+- [egov](egov/)
   - Cookie manipulation
 - NeverWinterBank
   - Using robots.txt and reading JavaScript

@@ -26,7 +26,15 @@ On failure:
 ### Cookies
 There is a single cookie on this page called `admin` with the value `false`. 
 
-What happens if we change this to `true` and login?
 
-# Result
+# Exploiting
+Now we can move onto the real exploit by looking at all the information we have determined.
+## Information
+- We have a cookie called admin
+- If the credentials are correct, we are directed to a page called admin
+
+## Using the Information
+Our admin status is set to false by the cookie, what happens if we set it to true and try logging in with our dummy credentials?
+
+## Result
 We are taken to a page with the flag and a cookie is added called `flag` with the value as the solution

@@ -4,12 +4,12 @@ This is a basic walkthrough of the gymnasium web application exploitation challe
 ## Easy
 - [egov](egov/)
   - Cookie manipulation
-- NeverWinterBank
+- [Never Winter Bank](NeverWinterBank/)
   - Using robots.txt and reading JavaScript
 ## Medium
-- Metro Lottery
+- [Metro Lottery](MetroLottery/)
   - Manipulating HTTP requests
 ## Hard 
-- Leek
-- Metro Clinic
+- [Leek](Leek/)
+- [Metro Clinic](MetroClinic/)
   - SQL Injection

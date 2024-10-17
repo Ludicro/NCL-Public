@@ -56,3 +56,4 @@ final_payload_base64 = base64.b64encode(json.dumps(payload, separators=(',', ':'
 # Output the final session key only if it matches the original token
 print("New session key:\n", final_payload_base64)
 
+print("Payload:\n",payload)

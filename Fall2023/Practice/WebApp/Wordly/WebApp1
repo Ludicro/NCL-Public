@@ -1,0 +1,19 @@
+Checking the javascript code, I can see it checks a list at the url: https://075f8a680393cf1dee8743f8624b4b7a-wordly.web.cityinthe.cloud/static/words.json
+
+Navigating to this site gives the list all all possible 5 letter words that could be used in the game.
+
+Scrolling to the bottom of the list, there are 2236 possible word choices. 
+
+We can also see in Network that every request is met with a POST to https://075f8a680393cf1dee8743f8624b4b7a-wordly.web.cityinthe.cloud/check
+This and the naming, we can assume that is probably how they verify what is correct.
+
+
+I think the proper way to get the flag is to use a tool like Burpsuite Intruder to populate and check answers, most likely by matching the seeds. As the correct answer shifts every request.
+
+I grabbed a random word from the list and submitted it enough times until random chance gave me the flag.
+
+
+Answer 1: https://075f8a680393cf1dee8743f8624b4b7a-wordly.web.cityinthe.cloud/static/words.json
+Answer 2: 2236
+Answer 3: https://075f8a680393cf1dee8743f8624b4b7a-wordly.web.cityinthe.cloud/check
+Answer 4: SKY-RGJP-3913

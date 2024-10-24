@@ -23,7 +23,7 @@
 ---
 
 ## Q5: What is the flag?
-**A5:** SKY-GGQB-1808  
+**A5:** *the flag*
 **A5 (walkthrough):**
 
 If you look at your cookies, you will notice that you have a cookie named `session`.  

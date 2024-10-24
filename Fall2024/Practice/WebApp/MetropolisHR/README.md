@@ -11,7 +11,7 @@ A3 (walkthrough):
 Change the name in the url to "Elyse" and you will see her profile appear.
 
 Q4: There's a flag hidden on someone's profile, what the flag value?
-A4: SKY-FGVR-4117
+A4: **THE FLAG**
 A4 (walkthrough):
 Reading Elyse's profile, she gives the name Molly as the person she reports to. Change the url to "Molly".
 

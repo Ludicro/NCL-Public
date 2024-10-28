@@ -28,4 +28,4 @@ def verify_checksums(messages_file: str, checksums_file: str) -> None:
         print("Some checksums did not match.")
 
 # Run the verification
-verify_checksums("Fall2024\Crypto\Tampered(Hard)\checksums_linesonly.log", "Fall2024\Crypto\Tampered(Hard)\checksums.log")
+verify_checksums("Fall2024\Individual\Crypto\Tampered(Hard)\checksums_linesonly.log", "Fall2024\Individual\Crypto\Tampered(Hard)\checksums.log")

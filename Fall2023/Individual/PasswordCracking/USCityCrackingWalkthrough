@@ -1,0 +1,4 @@
+┌──(ludicro㉿CAESAR)-[~/Documents/NCL/Fall2023/IndividualGame]
+└─$ hashcat -m 500 -a 6 -w 4 USCitiesCracking USCities-NoSpace ?d?d   
+
+Using md5crypt hash, a hybrid attack, on Nightmare workload, check the list of hashes using a list of all US Localities and add 2 numbers to the end

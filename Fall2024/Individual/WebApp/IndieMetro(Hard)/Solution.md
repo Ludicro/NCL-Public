@@ -6,7 +6,11 @@ Looking inside we see that the page is full of [JSON data](/Fall2024/WebApp/Indi
 Inside each of these, there is a field that doesn't fit anything that's shown. Researching that will give you the answer.
 
 # Q2: What is the flag?
-**A2:**
+**A2:** Apparently the solution to this was seeing that LokiJS is a NOSQL database and using an injection in the URL of the get page that looks like: `/games?id[$exists]=true&release[$exists]=false`. 
+
+There's a similar injection on PayloadsAllTheThings but I just didn't see the NOSQL on the GitHub cause I can't read.
+
+
 
 Using the following code in the dev console will get whichever `$loki` value matches from the JSON:
 ```js

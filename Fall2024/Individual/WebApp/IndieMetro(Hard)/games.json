@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Slay the Tower",
+        "release": "2023-04-01T00:00:00.000Z",
+        "description": "Climb the tower in this rouge like.",
+        "id": 0,
+        "meta": {
+            "revision": 0,
+            "created": 1729897017298,
+            "version": 0
+        },
+        "$loki": 1
+    },
+    {
+        "title": "Incompetent Company",
+        "release": "2023-10-02T00:00:00.000Z",
+        "description": "Collect space junk with your friends.",
+        "id": 1,
+        "meta": {
+            "revision": 0,
+            "created": 1729897017298,
+            "version": 0
+        },
+        "$loki": 2
+    },
+    {
+        "title": "Project Vampire",
+        "release": "2024-01-03T00:00:00.000Z",
+        "description": "Surive the vampire apocalypse in this top down rpg.",
+        "id": 2,
+        "meta": {
+            "revision": 0,
+            "created": 1729897017298,
+            "version": 0
+        },
+        "$loki": 3
+    },
+    {
+        "title": "Stardew Moutain",
+        "release": "2024-02-04T00:00:00.000Z",
+        "description": "Start a farm and meet local townsfolk.",
+        "id": 3,
+        "meta": {
+            "revision": 0,
+            "created": 1729897017298,
+            "version": 0
+        },
+        "$loki": 4
+    },
+    {
+        "title": "Oxygen Is Included",
+        "release": "2024-08-02T00:00:00.000Z",
+        "description": "Manage your highly developed space colony.",
+        "id": 4,
+        "meta": {
+            "revision": 0,
+            "created": 1729897017298,
+            "version": 0
+        },
+        "$loki": 5
+    }
+]

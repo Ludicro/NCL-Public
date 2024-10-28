@@ -1,0 +1,13 @@
+rule DetectPDF
+{
+    meta:
+        description = "Detected Sample"
+        author = "User"
+        last_modified = "2024-10-10"
+
+    strings:
+        $signature = { 25 50 44 46 }
+    condition:
+        $signature at 0
+}
+

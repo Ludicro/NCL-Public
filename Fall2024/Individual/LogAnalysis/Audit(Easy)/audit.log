@@ -1,0 +1,1657 @@
+Oct 14 00:00:21 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:00:21 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:00:32 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:00:32 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:01:30 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 00:01:30 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1290)
+Oct 14 00:02:16 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:02:16 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1728)
+Oct 14 00:02:21 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1156 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 00:02:53 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:02:53 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:03:10 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1067 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 00:03:36 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:03:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:03:47 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1966 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 00:04:18 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1778 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 00:05:02 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:05:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:05:18 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1731 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 00:06:17 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:06:17 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:07:02 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1405 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 00:07:09 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:07:09 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:08:02 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:08:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:08:11 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:08:11 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:08:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1553 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 00:08:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1446 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 00:08:57 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:08:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:09:36 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1540 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 00:10:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1920 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 00:10:44 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:10:44 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1499)
+Oct 14 00:11:00 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:11:00 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:11:17 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:11:17 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1200)
+Oct 14 00:12:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1544 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Oct 14 00:12:48 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1854 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 00:13:16 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:13:16 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1076)
+Oct 14 00:14:11 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:14:11 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:14:59 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:14:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:15:39 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:15:39 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:15:58 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:15:58 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:16:26 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:16:26 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:17:05 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:17:05 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1149)
+Oct 14 00:17:26 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:17:26 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1078)
+Oct 14 00:17:44 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1444 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 00:18:43 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:18:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:19:23 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:19:23 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1362)
+Oct 14 00:19:25 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:19:25 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1781)
+Oct 14 00:20:23 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1250 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 00:20:26 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:20:26 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1167)
+Oct 14 00:20:53 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:20:53 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1506)
+Oct 14 00:21:10 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:21:10 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1273)
+Oct 14 00:22:04 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:22:04 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1565)
+Oct 14 00:22:16 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1102 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 00:22:39 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1220 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 00:23:16 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:23:16 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:24:11 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:24:11 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:24:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1632 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 00:25:12 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:25:12 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1429)
+Oct 14 00:25:37 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 00:25:37 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1252)
+Oct 14 00:26:00 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:26:00 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1606)
+Oct 14 00:26:32 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:26:32 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:27:15 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:27:15 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1392)
+Oct 14 00:27:51 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:27:51 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1552)
+Oct 14 00:28:50 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:28:50 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:29:49 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:29:49 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:30:04 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:30:04 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:30:19 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:30:19 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:31:02 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1164 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 00:31:42 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:31:42 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1913)
+Oct 14 00:32:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1422 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 00:32:25 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1462 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 00:32:39 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:32:39 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1378)
+Oct 14 00:32:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1812 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 00:32:52 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 00:32:52 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:33:35 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:33:35 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:34:03 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 00:34:03 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:34:59 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1110 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 00:35:04 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:35:04 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1641)
+Oct 14 00:35:22 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:35:22 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1931)
+Oct 14 00:36:03 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1606 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 00:36:24 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:36:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:37:01 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:37:01 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1316)
+Oct 14 00:37:02 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:37:02 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1755)
+Oct 14 00:37:29 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:37:29 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1888)
+Oct 14 00:37:36 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1959 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 00:38:17 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1220 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 00:38:51 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:38:51 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:39:31 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:39:31 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:40:31 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:40:31 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1436)
+Oct 14 00:40:49 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1500 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 00:41:00 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:41:00 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:41:08 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:41:08 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:41:59 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1501 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 00:42:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1812 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 00:43:39 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:43:39 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1244)
+Oct 14 00:44:34 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:44:34 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:45:26 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1950 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 00:45:31 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:45:31 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1141)
+Oct 14 00:46:22 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:46:22 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1188)
+Oct 14 00:46:23 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 00:46:23 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:47:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1251 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 00:47:49 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1030 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 00:48:15 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:48:15 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1518)
+Oct 14 00:48:48 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 00:48:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:49:41 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 00:49:41 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:50:27 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:50:27 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1513)
+Oct 14 00:51:15 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:51:15 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1914)
+Oct 14 00:51:25 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1716 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 00:51:38 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:51:38 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:51:54 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:51:54 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1775)
+Oct 14 00:51:58 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1322 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 00:52:42 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:52:42 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:53:42 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:53:42 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1112)
+Oct 14 00:53:52 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:53:52 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:54:38 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 00:54:38 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:54:45 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:54:45 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:55:43 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:55:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:55:48 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 00:55:48 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1930)
+Oct 14 00:56:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1574 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 00:57:24 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 00:57:24 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1820)
+Oct 14 00:57:25 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:57:25 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 00:57:51 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 00:57:51 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1245)
+Oct 14 00:58:37 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1847 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 00:59:33 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1033 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 00:59:57 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 00:59:57 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1043)
+Oct 14 00:59:59 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1503 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 01:00:26 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:00:26 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1954)
+Oct 14 01:01:10 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:01:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:01:22 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:01:22 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1423)
+Oct 14 01:02:20 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1658 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 01:03:18 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1098 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 01:03:40 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:03:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:03:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1664 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 01:04:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1579 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 01:05:02 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:05:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:05:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1806 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 01:05:24 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:05:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:05:45 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:05:45 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:05:52 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:05:52 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1791)
+Oct 14 01:06:38 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1176 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 01:07:29 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:07:29 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:07:34 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1054 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 01:08:16 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:08:16 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:09:06 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:09:06 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1329)
+Oct 14 01:10:02 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:10:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:10:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1372 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 01:11:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1427 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 01:12:37 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1255 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 01:12:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1592 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 01:13:36 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1662 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 01:13:55 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:13:55 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1169)
+Oct 14 01:14:06 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:14:06 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1363)
+Oct 14 01:15:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1107 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 01:15:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1555 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 01:15:59 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1302 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 01:16:19 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:16:19 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:17:01 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:17:01 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1831)
+Oct 14 01:17:49 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1850 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 01:18:23 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1185 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 01:18:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1084 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 01:18:58 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:18:58 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:19:43 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:19:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:20:35 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:20:35 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1116)
+Oct 14 01:21:31 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:21:31 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:21:59 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:21:59 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1341)
+Oct 14 01:22:02 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1911 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 01:22:34 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1477 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 01:23:11 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1866 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 01:23:33 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1925 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 01:24:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1743 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 01:24:39 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:24:39 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:25:01 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:25:01 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1084)
+Oct 14 01:25:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1810 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Oct 14 01:25:45 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:25:45 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:26:42 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1881 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 01:27:21 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:27:21 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1206)
+Oct 14 01:28:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1681 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 01:28:39 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:28:39 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:29:17 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:29:17 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1254)
+Oct 14 01:29:59 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:29:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:30:29 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:30:29 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:31:28 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:31:28 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1093)
+Oct 14 01:32:05 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:32:05 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1956)
+Oct 14 01:32:49 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1182 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 01:33:47 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:33:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:34:07 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:34:07 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:35:00 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:35:00 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1630)
+Oct 14 01:35:44 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:35:44 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1584)
+Oct 14 01:36:31 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:36:31 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1414)
+Oct 14 01:37:11 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:37:11 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1883)
+Oct 14 01:37:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1115 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 01:38:39 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:38:39 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1692)
+Oct 14 01:39:13 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:39:13 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:39:25 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:39:25 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:39:29 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:39:29 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:40:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1747 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 01:40:31 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:40:31 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:41:16 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:41:16 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1289)
+Oct 14 01:41:39 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1951 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 01:42:03 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:42:03 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1585)
+Oct 14 01:42:05 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:42:05 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:42:37 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1376 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Oct 14 01:43:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1485 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 01:44:23 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1143 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 01:45:07 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:45:07 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:45:28 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:45:28 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:46:16 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:46:16 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1740)
+Oct 14 01:47:14 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:47:14 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1383)
+Oct 14 01:48:09 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 01:48:09 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:48:24 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:48:24 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1099)
+Oct 14 01:48:27 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:48:27 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:49:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1582 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 01:49:36 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:49:36 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1990)
+Oct 14 01:50:00 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1802 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 01:51:00 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:51:00 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1629)
+Oct 14 01:51:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1880 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 01:51:28 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 01:51:28 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:51:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1390 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 01:52:37 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1202 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 01:53:26 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:53:26 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1711)
+Oct 14 01:54:18 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1805 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 01:54:44 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:54:44 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:55:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1178 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 01:55:39 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 01:55:39 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1911)
+Oct 14 01:56:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1066 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 01:56:56 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 01:56:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:57:45 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:57:45 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1091)
+Oct 14 01:57:53 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:57:53 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1658)
+Oct 14 01:58:14 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1152 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 01:58:38 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 01:58:38 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 01:59:31 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 01:59:31 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1479)
+Oct 14 02:00:21 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:00:21 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:00:32 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:00:32 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1013)
+Oct 14 02:01:09 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:01:09 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1804)
+Oct 14 02:02:04 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1541 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 02:02:25 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:02:25 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1006)
+Oct 14 02:03:14 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:03:14 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1126)
+Oct 14 02:04:02 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1380 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 02:04:37 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:04:37 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:05:11 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1573 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 02:05:51 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:05:51 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:06:42 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1906 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 02:07:33 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1362 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 02:08:11 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 02:08:11 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:08:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1118 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 02:09:46 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:09:46 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:09:47 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:09:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:10:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1444 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 02:11:23 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:11:23 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1632)
+Oct 14 02:11:31 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:11:31 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1742)
+Oct 14 02:11:35 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1011 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 02:11:41 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:11:41 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:11:59 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:11:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:12:30 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:12:30 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1013)
+Oct 14 02:13:30 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:13:30 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1751)
+Oct 14 02:14:05 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:14:05 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:14:37 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:14:37 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1105)
+Oct 14 02:15:12 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:15:12 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:15:51 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:15:51 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1841)
+Oct 14 02:16:13 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:16:13 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:17:00 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:17:00 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1893)
+Oct 14 02:17:59 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1520 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 02:18:57 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:18:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:19:33 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1754 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 02:20:06 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:20:06 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:20:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1143 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 02:21:33 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:21:33 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:21:41 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:21:41 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1433)
+Oct 14 02:21:53 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:21:53 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:22:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1639 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 02:22:57 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 02:22:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:23:05 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:23:05 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1894)
+Oct 14 02:23:08 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1355 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 02:23:44 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:23:44 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1656)
+Oct 14 02:23:53 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:23:53 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:24:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1967 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 02:25:17 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:25:17 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1878)
+Oct 14 02:26:11 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:26:11 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:26:17 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1426 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 02:26:28 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:26:28 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:26:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1178 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 02:26:51 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:26:51 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:27:30 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:27:30 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:28:14 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:28:14 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:28:33 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1161 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 02:29:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1327 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 02:29:51 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:29:51 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1466)
+Oct 14 02:29:59 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:29:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:30:20 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:30:20 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1602)
+Oct 14 02:30:21 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1791 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 02:31:21 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:31:21 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:31:33 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:31:33 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:32:12 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:32:12 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1504)
+Oct 14 02:32:28 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:32:28 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1229)
+Oct 14 02:32:44 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:32:44 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1139)
+Oct 14 02:33:42 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1733 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 02:33:43 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:33:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:33:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1744 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 02:34:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1308 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 02:34:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1635 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 02:34:54 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:34:54 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1606)
+Oct 14 02:34:55 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:34:55 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1581)
+Oct 14 02:35:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1836 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 02:36:15 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:36:15 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1275)
+Oct 14 02:36:42 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:36:42 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:36:56 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:36:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:37:23 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:37:23 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:37:46 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1883 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 02:38:20 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:38:20 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1473)
+Oct 14 02:39:10 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:39:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:39:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1820 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 02:40:16 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:40:16 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1610)
+Oct 14 02:40:18 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:40:18 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1895)
+Oct 14 02:40:30 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:40:30 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1661)
+Oct 14 02:41:26 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1476 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 02:41:44 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:41:44 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1540)
+Oct 14 02:42:24 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1351 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 02:42:29 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:42:29 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:43:08 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:43:08 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1108)
+Oct 14 02:43:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1587 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 02:43:55 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:43:55 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1802)
+Oct 14 02:44:39 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:44:39 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:44:56 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:44:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:45:08 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:45:08 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1699)
+Oct 14 02:46:07 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:46:07 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1802)
+Oct 14 02:46:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1279 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 02:46:51 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:46:51 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:47:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1179 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 02:48:25 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:48:25 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1436)
+Oct 14 02:48:36 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:48:36 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1600)
+Oct 14 02:48:57 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1709 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 02:49:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1516 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 02:49:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1985 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 02:50:03 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:50:03 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1628)
+Oct 14 02:50:50 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:50:50 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1437)
+Oct 14 02:51:34 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1857 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 02:52:24 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1780 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 02:52:34 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1038 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 02:53:25 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:53:25 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1380)
+Oct 14 02:54:02 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1338 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 02:54:12 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 02:54:12 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:54:58 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1746 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 02:55:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1055 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 02:55:57 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1275 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 02:56:50 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 02:56:50 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1416)
+Oct 14 02:57:46 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:57:46 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1559)
+Oct 14 02:58:00 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 02:58:00 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1227)
+Oct 14 02:58:07 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1306 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 02:58:48 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 02:58:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 02:59:39 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 02:59:39 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:00:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1706 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 03:00:41 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:00:41 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:00:42 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1062 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 03:00:52 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:00:52 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1946)
+Oct 14 03:01:52 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:01:52 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1532)
+Oct 14 03:02:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1257 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 03:02:20 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:02:20 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1206)
+Oct 14 03:03:10 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:03:10 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1715)
+Oct 14 03:03:35 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1787 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 03:04:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1931 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 03:04:24 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1506 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 03:05:01 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:05:01 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:05:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1652 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 03:06:18 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:06:18 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1531)
+Oct 14 03:06:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1016 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 03:07:37 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:07:37 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:07:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1082 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 03:08:18 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:08:18 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:09:16 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:09:16 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1715)
+Oct 14 03:09:25 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:09:25 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:09:28 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:09:28 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1289)
+Oct 14 03:09:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1478 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 03:10:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1064 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 03:10:47 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:10:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:11:08 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:11:08 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1088)
+Oct 14 03:12:02 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:12:02 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1107)
+Oct 14 03:12:08 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:12:08 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1607)
+Oct 14 03:12:35 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1445 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 03:13:19 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:13:19 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:14:01 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1478 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 03:14:09 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:14:09 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:14:38 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:14:38 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1959)
+Oct 14 03:15:10 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:15:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:15:24 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1789 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 03:15:52 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:15:52 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1340)
+Oct 14 03:15:56 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:15:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:16:00 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:16:00 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1164)
+Oct 14 03:16:20 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1842 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 03:16:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1090 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 03:16:49 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:16:49 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:17:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1328 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 03:17:49 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:17:49 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1374)
+Oct 14 03:18:21 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1798 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 03:18:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1282 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 03:18:54 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1186 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Oct 14 03:19:48 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:19:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:20:36 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:20:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:21:03 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:21:03 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1846)
+Oct 14 03:21:52 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:21:52 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1196)
+Oct 14 03:21:59 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:21:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:22:32 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1171 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 03:22:45 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:22:45 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1731)
+Oct 14 03:23:10 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1095 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 03:23:27 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:23:27 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1525)
+Oct 14 03:24:01 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:24:01 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:24:48 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:24:48 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1635)
+Oct 14 03:24:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1303 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 03:25:19 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:25:19 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1150)
+Oct 14 03:25:34 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:25:34 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1196)
+Oct 14 03:25:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1610 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 03:26:05 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:26:05 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1310)
+Oct 14 03:26:28 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:26:28 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:26:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1693 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 03:27:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1661 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 03:27:55 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:27:55 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:28:18 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:28:18 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1872)
+Oct 14 03:29:15 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:29:15 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:29:53 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:29:53 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1411)
+Oct 14 03:30:03 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:30:03 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:30:07 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1928 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 03:30:11 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:30:11 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1249)
+Oct 14 03:30:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1975 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 03:31:21 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:31:21 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:31:24 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:31:24 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1592)
+Oct 14 03:32:13 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:32:13 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:32:27 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:32:27 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:32:49 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1965 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 03:33:06 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:33:06 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:33:18 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1023 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 03:33:21 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:33:21 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:33:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1783 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 03:33:49 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1436 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 03:33:50 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:33:50 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:34:49 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:34:49 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:35:23 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:35:23 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1273)
+Oct 14 03:35:31 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:35:31 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1976)
+Oct 14 03:36:00 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:36:00 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:36:57 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:36:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:37:10 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:37:10 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1040)
+Oct 14 03:37:49 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:37:49 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1945)
+Oct 14 03:38:28 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:38:28 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1908)
+Oct 14 03:39:07 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:39:07 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1047)
+Oct 14 03:39:47 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:39:47 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1872)
+Oct 14 03:40:33 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:40:33 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:41:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1360 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 03:41:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1272 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 03:42:10 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:42:10 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1343)
+Oct 14 03:42:49 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:42:49 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1504)
+Oct 14 03:43:43 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:43:43 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1675)
+Oct 14 03:43:49 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:43:49 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:44:07 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:44:07 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1343)
+Oct 14 03:44:12 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:44:12 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:44:40 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:44:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:45:06 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:45:06 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1437)
+Oct 14 03:45:14 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:45:14 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1658)
+Oct 14 03:45:42 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:45:42 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:45:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1736 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 03:46:48 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1334 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 03:47:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1755 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 03:48:24 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1597 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 03:48:56 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:48:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:49:24 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:49:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:49:56 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1390 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 03:50:48 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:50:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:51:28 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1409 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 03:51:34 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1156 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 03:52:19 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:52:19 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:53:04 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:53:04 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:53:42 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 03:53:42 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1223)
+Oct 14 03:54:02 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1079 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 03:54:35 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 03:54:35 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1280)
+Oct 14 03:55:22 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:55:22 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:55:40 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:55:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:56:31 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:56:31 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1195)
+Oct 14 03:56:48 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1136 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 03:57:44 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:57:44 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1718)
+Oct 14 03:57:45 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 03:57:45 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1839)
+Oct 14 03:58:31 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1508 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 03:58:44 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:58:44 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 03:59:20 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 03:59:20 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1071)
+Oct 14 03:59:33 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 03:59:33 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1143)
+Oct 14 03:59:58 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 03:59:58 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:00:24 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:00:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:00:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1537 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 04:00:35 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1083 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 04:01:06 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:01:06 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1936)
+Oct 14 04:01:33 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:01:33 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:01:44 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:01:44 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:02:25 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1810 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 04:02:30 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:02:30 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1174)
+Oct 14 04:02:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1376 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 04:03:34 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:03:34 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1034)
+Oct 14 04:04:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1392 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 04:04:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1130 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 04:05:25 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1350 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 04:05:39 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:05:39 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:06:14 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:06:14 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1585)
+Oct 14 04:06:38 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:06:38 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1643)
+Oct 14 04:06:47 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1588 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 04:07:06 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:07:06 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:07:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1826 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 04:08:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1357 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 04:09:05 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:09:05 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1359)
+Oct 14 04:09:58 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:09:58 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1426)
+Oct 14 04:10:36 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:10:36 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1098)
+Oct 14 04:10:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1960 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 04:11:28 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:11:28 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:11:58 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:11:58 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1548)
+Oct 14 04:12:10 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:12:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:12:20 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:12:20 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1626)
+Oct 14 04:12:42 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:12:42 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1316)
+Oct 14 04:12:59 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:12:59 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1258)
+Oct 14 04:13:59 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:13:59 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1647)
+Oct 14 04:14:02 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:14:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:14:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1575 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 04:14:53 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:14:53 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:15:28 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:15:28 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1816)
+Oct 14 04:16:25 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1881 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 04:16:57 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:16:57 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1191)
+Oct 14 04:17:45 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:17:45 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:18:25 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:18:25 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:18:37 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:18:37 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1134)
+Oct 14 04:19:04 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1702 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 04:19:46 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:19:46 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1892)
+Oct 14 04:20:23 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:20:23 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1027)
+Oct 14 04:21:04 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1952 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 04:21:42 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1518 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 04:22:41 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:22:41 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1296)
+Oct 14 04:22:59 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:22:59 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1496)
+Oct 14 04:23:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1641 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 04:24:25 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1885 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 04:24:48 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:24:48 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1749)
+Oct 14 04:25:41 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:25:41 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:26:00 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:26:00 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:26:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1747 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Oct 14 04:27:45 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:27:45 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1849)
+Oct 14 04:28:21 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:28:21 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:28:45 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:28:45 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1125)
+Oct 14 04:29:29 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:29:29 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:29:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1469 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 04:30:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1469 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 04:30:47 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:30:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:31:21 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:31:21 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:32:21 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:32:21 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1668)
+Oct 14 04:32:58 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1422 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 04:33:26 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1874 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 04:33:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1019 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 04:34:35 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:34:35 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1642)
+Oct 14 04:34:46 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:34:46 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1344)
+Oct 14 04:35:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1204 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 04:36:31 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1005 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 04:37:16 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:37:16 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1371)
+Oct 14 04:37:44 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:37:44 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1902)
+Oct 14 04:38:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1808 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 04:39:01 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:39:01 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:39:41 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:39:41 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:40:27 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:40:27 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1956)
+Oct 14 04:40:52 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:40:52 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:41:37 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:41:37 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1404)
+Oct 14 04:42:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1162 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 04:42:44 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:42:44 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:43:09 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:43:09 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1058)
+Oct 14 04:43:19 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1368 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 04:43:44 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:43:44 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1575)
+Oct 14 04:43:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1541 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 04:44:05 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:44:05 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:44:56 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:44:56 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1102)
+Oct 14 04:45:37 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1243 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 04:45:41 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 04:45:41 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:46:08 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:46:08 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1988)
+Oct 14 04:47:07 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:47:07 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:47:31 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1193 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 04:47:54 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:47:54 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:48:18 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:48:18 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1033)
+Oct 14 04:48:55 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:48:55 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:49:37 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:49:37 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:49:57 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 04:49:57 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1808)
+Oct 14 04:50:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1814 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 04:51:15 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:51:15 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:52:07 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:52:07 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:52:48 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 04:52:48 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1615)
+Oct 14 04:53:18 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:53:18 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1845)
+Oct 14 04:53:36 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:53:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:53:56 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1868 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 04:54:08 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1109 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 04:54:27 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:54:27 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1430)
+Oct 14 04:55:14 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 04:55:14 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:56:01 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:56:01 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1484)
+Oct 14 04:56:37 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:56:37 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:57:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1485 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 04:58:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1654 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 04:58:08 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 04:58:08 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1280)
+Oct 14 04:58:38 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 04:58:38 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 04:59:03 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1731 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 04:59:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1950 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 05:00:01 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:00:01 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1477)
+Oct 14 05:00:59 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:00:59 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1679)
+Oct 14 05:01:34 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1182 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 05:01:50 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:01:50 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1394)
+Oct 14 05:02:22 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:02:22 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1945)
+Oct 14 05:02:43 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:02:43 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1715)
+Oct 14 05:02:44 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1018 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 05:03:08 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:03:08 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:03:16 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:03:16 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1526)
+Oct 14 05:03:23 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:03:23 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:03:40 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:03:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:04:35 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:04:35 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:05:23 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:05:23 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:05:56 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:05:56 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1278)
+Oct 14 05:06:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1756 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 05:07:16 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1881 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 05:07:45 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:07:45 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1672)
+Oct 14 05:08:21 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:08:21 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1609)
+Oct 14 05:08:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1131 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 05:08:49 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:08:49 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1370)
+Oct 14 05:09:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1709 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 05:09:26 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:09:26 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:09:32 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:09:32 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:09:33 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1353 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 05:10:01 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1867 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 05:10:41 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:10:41 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1088)
+Oct 14 05:10:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1084 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 05:10:53 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:10:53 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1304)
+Oct 14 05:11:50 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:11:50 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1016)
+Oct 14 05:12:32 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:12:32 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1321)
+Oct 14 05:12:49 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:12:49 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:13:00 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:13:00 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1150)
+Oct 14 05:13:56 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:13:56 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1673)
+Oct 14 05:14:40 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:14:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:15:27 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:15:27 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:16:16 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1463 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 05:16:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1524 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 05:16:58 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1192 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 05:17:13 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:17:13 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:18:12 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:18:12 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1686)
+Oct 14 05:18:14 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:18:14 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:18:48 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:18:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:19:02 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:19:02 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1622)
+Oct 14 05:19:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1751 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 05:19:56 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:19:56 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1254)
+Oct 14 05:20:18 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1622 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 05:20:50 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:20:50 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1999)
+Oct 14 05:21:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1259 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 05:21:08 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:21:08 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:21:23 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:21:23 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1914)
+Oct 14 05:22:20 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1330 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 05:23:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1477 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 05:24:04 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:24:04 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:24:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1576 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 05:25:07 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1577 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 05:25:16 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:25:16 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1037)
+Oct 14 05:25:17 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:25:17 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1569)
+Oct 14 05:25:45 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:25:45 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1983)
+Oct 14 05:25:47 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1215 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 05:26:17 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:26:17 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:27:09 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1500 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Oct 14 05:28:08 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:28:08 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:28:49 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:28:49 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:29:17 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:29:17 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:30:02 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:30:02 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1260)
+Oct 14 05:30:26 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1214 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 05:30:51 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:30:51 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:30:53 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:30:53 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1879)
+Oct 14 05:31:42 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:31:42 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1730)
+Oct 14 05:32:06 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:32:06 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1453)
+Oct 14 05:32:10 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:32:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:32:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1894 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 05:32:38 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:32:38 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1782)
+Oct 14 05:33:29 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:33:29 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1812)
+Oct 14 05:34:00 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:34:00 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:34:28 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1985 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 05:35:21 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1639 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 05:35:24 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:35:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:36:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1933 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 05:37:07 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1851 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 05:37:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1356 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 05:38:03 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:38:03 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:38:17 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:38:17 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:38:42 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:38:42 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1552)
+Oct 14 05:39:09 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:39:09 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:39:10 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:39:10 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1111)
+Oct 14 05:39:54 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:39:54 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1288)
+Oct 14 05:40:26 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:40:26 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1708)
+Oct 14 05:41:07 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:41:07 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:41:16 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:41:16 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1793)
+Oct 14 05:41:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1514 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 05:42:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1226 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 05:42:43 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:42:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:43:02 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:43:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:43:40 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:43:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:44:38 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:44:38 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:45:00 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:45:00 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1612)
+Oct 14 05:45:05 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:45:05 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:46:02 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:46:02 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1066)
+Oct 14 05:46:57 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:46:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:47:23 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:47:23 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1175)
+Oct 14 05:48:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1402 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 05:48:43 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:48:43 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1772)
+Oct 14 05:49:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1422 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 05:49:31 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:49:31 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:50:13 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:50:13 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1554)
+Oct 14 05:50:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1321 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 05:51:38 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1382 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 05:52:37 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:52:37 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:52:55 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:52:55 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1471)
+Oct 14 05:53:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1556 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 05:54:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1541 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 05:54:40 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:54:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:54:44 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:54:44 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:54:57 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 05:54:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:55:56 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 05:55:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:56:25 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 05:56:25 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:57:10 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 05:57:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:57:54 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1529 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 05:58:50 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:58:50 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:59:36 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 05:59:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 05:59:52 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 05:59:52 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1257)
+Oct 14 06:00:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1176 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 06:00:46 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:00:46 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:01:16 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:01:16 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1460)
+Oct 14 06:01:56 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:01:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:02:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1110 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 06:02:48 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1665 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 06:02:56 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:02:56 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1509)
+Oct 14 06:03:54 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:03:54 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:04:03 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:04:03 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:04:38 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1503 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 06:05:31 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:05:31 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1314)
+Oct 14 06:06:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1980 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 06:06:38 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1270 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 06:07:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1709 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 06:07:16 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:07:16 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:07:28 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1708 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 06:07:47 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:07:47 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1433)
+Oct 14 06:08:10 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1487 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 06:08:57 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:08:57 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1745)
+Oct 14 06:09:00 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:09:00 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1289)
+Oct 14 06:09:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1012 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 06:09:35 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:09:35 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:10:05 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:10:05 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1868)
+Oct 14 06:10:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1982 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 06:11:44 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:11:44 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1772)
+Oct 14 06:12:13 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1866 euid=0 tty=/dev/pts/1 ruser=bob rhost=  user=bob
+Oct 14 06:12:27 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:12:27 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:12:42 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:12:42 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1699)
+Oct 14 06:13:03 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1718 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 06:13:45 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:13:45 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:13:52 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1873 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 06:14:10 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1589 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 06:14:23 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:14:23 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:14:48 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:14:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:14:52 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:14:52 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1660)
+Oct 14 06:15:45 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:15:45 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1239)
+Oct 14 06:15:55 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1139 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 06:16:02 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:16:02 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1394)
+Oct 14 06:16:24 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:16:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:16:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1015 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 06:17:05 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:17:05 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1708)
+Oct 14 06:18:01 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:18:01 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:18:45 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1358 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 06:19:35 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:19:35 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1325)
+Oct 14 06:19:46 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:19:46 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1594)
+Oct 14 06:20:42 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:20:42 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:21:22 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1918 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 06:21:50 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:21:50 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1053)
+Oct 14 06:22:17 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1840 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 06:22:57 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:22:57 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1697)
+Oct 14 06:23:57 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:23:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:24:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1542 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 06:25:24 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:25:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:26:24 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:26:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:27:14 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:27:14 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1851)
+Oct 14 06:27:48 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:27:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:27:56 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:27:56 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:28:17 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1102 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 06:28:42 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1717 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 06:28:55 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:28:55 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:28:57 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:28:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:29:07 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1959 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 06:29:50 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:29:50 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1365)
+Oct 14 06:30:32 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:30:32 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:30:46 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:30:46 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:31:16 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:31:16 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:31:27 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:31:27 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:32:24 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1777 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 06:32:32 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1294 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 06:33:24 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1166 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 06:33:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1211 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 06:34:33 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:34:33 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1406)
+Oct 14 06:35:23 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:35:23 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1461)
+Oct 14 06:36:01 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:36:01 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1776)
+Oct 14 06:36:09 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:36:09 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:37:08 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:37:08 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:37:26 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:37:26 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1520)
+Oct 14 06:37:40 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:37:40 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1869)
+Oct 14 06:38:20 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1876 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 06:39:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1160 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 06:39:23 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1284 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 06:40:13 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:40:13 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:40:31 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:40:31 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:41:02 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:41:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:41:05 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:41:05 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1535)
+Oct 14 06:41:58 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:41:58 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:42:23 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:42:23 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:42:51 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:42:51 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1182)
+Oct 14 06:43:33 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1833 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 06:44:33 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:44:33 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1519)
+Oct 14 06:44:43 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:44:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:45:24 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:45:24 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:46:05 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:46:05 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:46:40 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:46:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:46:45 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:46:45 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:47:43 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:47:43 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1514)
+Oct 14 06:48:03 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1716 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 06:48:04 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:48:04 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:49:04 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:49:04 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1951)
+Oct 14 06:49:42 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:49:42 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:50:40 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:50:40 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1953)
+Oct 14 06:50:52 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 06:50:52 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:51:43 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:51:43 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1043)
+Oct 14 06:51:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1434 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 06:52:42 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 06:52:42 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1050)
+Oct 14 06:53:08 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1518 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 06:53:48 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:53:48 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:54:46 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:54:46 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:54:54 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:54:54 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:55:36 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1797 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 06:55:37 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1693 euid=0 tty=/dev/pts/3 ruser=alice rhost=  user=alice
+Oct 14 06:56:04 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1060 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 06:56:10 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 06:56:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:56:43 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 06:56:43 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1324)
+Oct 14 06:57:25 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1173 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 06:58:19 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1532 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 06:58:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1126 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 06:58:47 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 06:58:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:58:59 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:58:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 06:59:47 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 06:59:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:00:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1138 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 07:01:10 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:01:10 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:01:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1551 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 07:01:48 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1386 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 07:02:21 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1166 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 07:02:30 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:02:30 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:02:54 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1771 euid=0 tty=/dev/pts/4 ruser=dave rhost=  user=dave
+Oct 14 07:03:13 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:03:13 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1405)
+Oct 14 07:03:56 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1382 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 07:04:56 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:04:56 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1038)
+Oct 14 07:05:04 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1182 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 07:05:36 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:05:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:06:19 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:06:19 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:06:42 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:06:42 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:07:40 server sudo:    dave : TTY=pts/0 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:07:40 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:08:29 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:08:29 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1327)
+Oct 14 07:08:39 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1591 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 07:08:46 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1257 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 07:09:01 server sudo:    alice : TTY=pts/1 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:09:01 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:09:20 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:09:20 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:09:50 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1396 euid=0 tty=/dev/pts/0 ruser=bob rhost=  user=bob
+Oct 14 07:10:06 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:10:06 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1764)
+Oct 14 07:10:52 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:10:52 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:11:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1577 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 07:12:17 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:12:17 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:12:54 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:12:54 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:13:37 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:13:37 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:14:29 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:14:29 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:15:00 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:15:00 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1603)
+Oct 14 07:15:58 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:15:58 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:16:34 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:16:34 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:16:36 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:16:36 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1248)
+Oct 14 07:17:32 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1019 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 07:17:44 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:17:44 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1309)
+Oct 14 07:18:37 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1120 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 07:18:58 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1638 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 07:19:19 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:19:19 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:20:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1441 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 07:20:36 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:20:36 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1474)
+Oct 14 07:20:46 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1206 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 07:21:00 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:21:00 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:21:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1932 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 07:21:50 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:21:50 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1410)
+Oct 14 07:22:47 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:22:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:23:43 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:23:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:24:36 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:24:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:25:02 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:25:02 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:25:19 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:25:19 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1891)
+Oct 14 07:26:10 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:26:10 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1700)
+Oct 14 07:26:34 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:26:34 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:27:04 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1030 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 07:27:05 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1825 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 07:27:23 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:27:23 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:28:17 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:28:17 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:28:50 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:28:50 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:29:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1082 euid=0 tty=/dev/pts/2 ruser=alice rhost=  user=alice
+Oct 14 07:29:44 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:29:44 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1271)
+Oct 14 07:29:57 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:29:57 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:30:43 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:30:43 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1675)
+Oct 14 07:31:13 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:31:13 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1295)
+Oct 14 07:31:17 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:31:17 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:32:03 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:32:03 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:32:56 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1153 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 07:33:47 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:33:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:34:23 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1060 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 07:34:43 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:34:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:35:03 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1639 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 07:35:43 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:35:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:36:13 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:36:13 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:36:47 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:36:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:37:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1873 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 07:38:13 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:38:13 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1010)
+Oct 14 07:38:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1851 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 07:39:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1854 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 07:39:14 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:39:14 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1127)
+Oct 14 07:39:27 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1249 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 07:40:13 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:40:13 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1333)
+Oct 14 07:40:19 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1934 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 07:40:28 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:40:28 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1170)
+Oct 14 07:41:12 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:41:12 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1994)
+Oct 14 07:41:45 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:41:45 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:41:46 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:41:46 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1615)
+Oct 14 07:41:59 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1933 euid=0 tty=/dev/pts/2 ruser=eve rhost=  user=eve
+Oct 14 07:42:43 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:42:43 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:42:48 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1690 euid=0 tty=/dev/pts/0 ruser=alice rhost=  user=alice
+Oct 14 07:42:54 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:42:54 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:43:37 server sudo:    charlie : TTY=pts/4 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:43:37 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1516)
+Oct 14 07:44:30 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1970 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 07:45:18 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:45:18 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1262)
+Oct 14 07:45:41 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1862 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 07:45:47 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1694 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 07:46:21 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:46:21 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1176)
+Oct 14 07:46:28 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1144 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 07:46:42 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:46:42 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1539)
+Oct 14 07:47:10 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:47:10 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1633)
+Oct 14 07:47:17 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1587 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 07:48:06 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:48:06 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1036)
+Oct 14 07:48:58 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:48:58 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1191)
+Oct 14 07:49:35 server sudo:    alice : TTY=pts/4 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:49:35 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1777)
+Oct 14 07:49:55 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:49:55 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1484)
+Oct 14 07:50:29 server sudo:    eve : TTY=pts/1 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:50:29 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1320)
+Oct 14 07:51:15 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1298 euid=0 tty=/dev/pts/0 ruser=eve rhost=  user=eve
+Oct 14 07:51:43 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1559 euid=0 tty=/dev/pts/4 ruser=charlie rhost=  user=charlie
+Oct 14 07:52:11 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 07:52:11 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:52:47 server sudo:    bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:52:47 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:53:45 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:53:45 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1053)
+Oct 14 07:54:29 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1561 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 07:55:04 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 07:55:04 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:55:36 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:55:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:55:59 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 07:55:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:56:50 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:56:50 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1829)
+Oct 14 07:57:31 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 07:57:31 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 07:58:12 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1038 euid=0 tty=/dev/pts/1 ruser=eve rhost=  user=eve
+Oct 14 07:58:27 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 07:58:27 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1258)
+Oct 14 07:58:43 server sudo:    dave : TTY=pts/4 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 07:58:43 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1411)
+Oct 14 07:59:28 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1467 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 07:59:51 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1385 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 08:00:36 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:00:36 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1173)
+Oct 14 08:01:35 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 08:01:35 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1709)
+Oct 14 08:01:41 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 08:01:41 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1768)
+Oct 14 08:02:26 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 08:02:26 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:03:11 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 08:03:11 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1569)
+Oct 14 08:03:20 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:03:20 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1985)
+Oct 14 08:04:20 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1035 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 08:04:41 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 08:04:41 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1084)
+Oct 14 08:05:16 server sudo:    bob : TTY=pts/2 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 08:05:16 server sudo: pam_unix(sudo:session): session opened for user root by bob(uid=1269)
+Oct 14 08:05:20 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1902 euid=0 tty=/dev/pts/0 ruser=dave rhost=  user=dave
+Oct 14 08:05:22 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1568 euid=0 tty=/dev/pts/2 ruser=dave rhost=  user=dave
+Oct 14 08:05:34 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:05:34 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1808)
+Oct 14 08:05:36 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 08:05:36 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:06:30 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 08:06:30 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1781)
+Oct 14 08:06:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1562 euid=0 tty=/dev/pts/1 ruser=charlie rhost=  user=charlie
+Oct 14 08:07:25 server sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 08:07:25 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:08:02 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1966 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 08:08:38 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 08:08:38 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:08:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1753 euid=0 tty=/dev/pts/3 ruser=eve rhost=  user=eve
+Oct 14 08:09:51 server sudo:    eve : TTY=pts/3 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 08:09:51 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1892)
+Oct 14 08:10:40 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1105 euid=0 tty=/dev/pts/4 ruser=alice rhost=  user=alice
+Oct 14 08:11:32 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1691 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 08:11:55 server sudo:    alice : TTY=pts/3 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 08:11:55 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:12:32 server sudo:    charlie : TTY=pts/0 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 08:12:32 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:12:53 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:12:53 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:12:55 server sudo:    eve : TTY=pts/0 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 08:12:55 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:13:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1178 euid=0 tty=/dev/pts/3 ruser=dave rhost=  user=dave
+Oct 14 08:13:26 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 08:13:26 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:13:35 server sudo:    charlie : TTY=pts/3 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 08:13:35 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:14:15 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:14:15 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:14:50 server sudo:    bob : TTY=pts/4 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 08:14:50 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:14:59 server sudo:    dave : TTY=pts/2 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/touch /etc/sudoers
+Oct 14 08:14:59 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:15:32 server sudo: pam_unix(sudo:auth): authentication failure; logname=dave uid=1929 euid=0 tty=/dev/pts/1 ruser=dave rhost=  user=dave
+Oct 14 08:16:19 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 08:16:19 server sudo: pam_unix(sudo:session): session opened for user root by charlie(uid=1475)
+Oct 14 08:16:26 server sudo:    charlie : TTY=pts/1 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 08:16:26 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:17:19 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1935 euid=0 tty=/dev/pts/2 ruser=charlie rhost=  user=charlie
+Oct 14 08:17:26 server sudo:    bob : TTY=pts/3 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:17:26 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:18:06 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1646 euid=0 tty=/dev/pts/0 ruser=charlie rhost=  user=charlie
+Oct 14 08:18:11 server sudo:    charlie : TTY=pts/2 ; PWD=/home/charlie ; USER=root ; COMMAND=/usr/sbin/reboot
+Oct 14 08:18:11 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:18:53 server sudo:    alice : TTY=pts/2 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 08:18:53 server sudo: pam_unix(sudo:session): session opened for user root by alice(uid=1730)
+Oct 14 08:19:01 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1494 euid=0 tty=/dev/pts/4 ruser=bob rhost=  user=bob
+Oct 14 08:19:57 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1346 euid=0 tty=/dev/pts/3 ruser=bob rhost=  user=bob
+Oct 14 08:20:15 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:20:15 server sudo: pam_unix(sudo:session): session opened for user root by dave(uid=1459)
+Oct 14 08:20:53 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1993 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 08:21:31 server sudo:    dave : TTY=pts/1 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 08:21:31 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:22:26 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1721 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 08:22:32 server sudo: pam_unix(sudo:auth): authentication failure; logname=eve uid=1231 euid=0 tty=/dev/pts/4 ruser=eve rhost=  user=eve
+Oct 14 08:23:22 server sudo: pam_unix(sudo:auth): authentication failure; logname=charlie uid=1717 euid=0 tty=/dev/pts/3 ruser=charlie rhost=  user=charlie
+Oct 14 08:23:57 server sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1103 euid=0 tty=/dev/pts/1 ruser=alice rhost=  user=alice
+Oct 14 08:24:55 server sudo:    eve : TTY=pts/4 ; PWD=/home/eve ; USER=root ; COMMAND=/usr/bin/apt-get update
+Oct 14 08:24:55 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:25:17 server sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1994 euid=0 tty=/dev/pts/2 ruser=bob rhost=  user=bob
+Oct 14 08:25:49 server sudo:    dave : TTY=pts/3 ; PWD=/home/dave ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Oct 14 08:25:49 server sudo: pam_unix(sudo:session): session closed for user root
+Oct 14 08:26:47 server sudo:    eve : TTY=pts/2 ; PWD=/home/eve ; USER=root ; COMMAND=/bin/rm -rf /var/log/*
+Oct 14 08:26:47 server sudo: pam_unix(sudo:session): session opened for user root by eve(uid=1949)
+Oct 14 08:27:11 server sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/passwd root
+Oct 14 08:27:11 server sudo: pam_unix(sudo:session): session closed for user root

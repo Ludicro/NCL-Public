@@ -10,8 +10,9 @@ Inside each of these, there is a field that doesn't fit anything that's shown. R
 
 There's a similar injection on PayloadsAllTheThings but I just didn't see the NOSQL on the GitHub cause I can't read.
 
+I was close at one point as I was doing URLs like: `/games?id=1` to see if I got a response but I am not familiar enough with web app exploitation to have processed the results I was getting (or more specifically *wasn't* getting).
 
-
+*This was me trying to see if the solution lied in sending commands to the console*
 Using the following code in the dev console will get whichever `$loki` value matches from the JSON:
 ```js
 (async function() {
